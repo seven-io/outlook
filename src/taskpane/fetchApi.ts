@@ -27,6 +27,9 @@ export function fetchApi({Messagable, endpoint, payload = {}, method = 'post'}: 
         for (const key in payload) {
             formData.append(key, payload[key]);
         }
+
+        formData.append('sendWith', 'outlook');
+
         xhr.send(formData);
     });
 }
