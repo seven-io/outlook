@@ -1,4 +1,4 @@
-import {SmsMessage} from 'sms77-client';
+import {SmsMessage} from '@seven.io/api';
 
 import {IMessagable} from './components/App';
 

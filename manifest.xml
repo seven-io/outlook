@@ -5,15 +5,15 @@
            xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides/1.0" xsi:type="MailApp">
     <Id>3d73bc42-b395-455f-902a-e64c5ef6e98a</Id>
     <Version>1.0.0.0</Version>
-    <ProviderName>sms77io</ProviderName>
+    <ProviderName>seven</ProviderName>
     <DefaultLocale>en-US</DefaultLocale>
-    <DisplayName DefaultValue="sms77io"/>
-    <Description DefaultValue="Send messages through the sms77io SMS Gateway."/>
+    <DisplayName DefaultValue="seven"/>
+    <Description DefaultValue="Send messages through the seven SMS Gateway."/>
     <IconUrl DefaultValue="https://localhost:3000/assets/icon-32.png"/>
     <HighResolutionIconUrl DefaultValue="https://localhost:3000/assets/icon-80.png"/>
-    <SupportUrl DefaultValue="https://www.sms77.io/en/company/contact/"/>
+    <SupportUrl DefaultValue="https://www.seven.io/en/company/contact/"/>
     <AppDomains>
-        <AppDomain>sms77.io</AppDomain>
+        <AppDomain>seven.io</AppDomain>
     </AppDomains>
     <Hosts>
         <Host Name="Mailbox"/>
@@ -81,11 +81,11 @@
                 <bt:Url id="Taskpane.Url" DefaultValue="https://localhost:3000/taskpane.html"/>
             </bt:Urls>
             <bt:ShortStrings>
-                <bt:String id="GroupLabel" DefaultValue="sms77io"/>
+                <bt:String id="GroupLabel" DefaultValue="seven"/>
                 <bt:String id="TaskpaneButton.Label" DefaultValue="Send as SMS"/>
             </bt:ShortStrings>
             <bt:LongStrings>
-                <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Opens the sms77io SMS action pane."/>
+                <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Opens the seven SMS action pane."/>
             </bt:LongStrings>
         </Resources>
     </VersionOverrides>

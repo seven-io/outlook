@@ -27,7 +27,7 @@ export interface AppProps {
     isOfficeInitialized: boolean;
 }
 
-const title = 'sms77io Add-in';
+const title = 'seven Add-in';
 
 const toString = (s: any) => 'string' === typeof s ? s : JSON.stringify(s);
 const toStringArray = (msgs: string[], msg: string) => [...msgs, toString(msg)];
@@ -44,7 +44,7 @@ export default function App({isOfficeInitialized}: AppProps) {
 
     return isOfficeInitialized
         ? <>
-            <Header logo='assets/logo-light-128x128.png' title={title} message='sms77io'
+            <Header logo='assets/logo-light-128x128.png' title={title} message='seven'
                     style={{marginBottom: '32px'}}/>
 
             <Messages entries={messages} setState={setMessages}/>

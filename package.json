@@ -1,9 +1,9 @@
 {
-  "name": "@sms77/outlook",
+  "name": "@seven.io/outlook",
   "version": "1.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sms77io/outlook.git"
+    "url": "https://github.com/seven-io/outlook.git"
   },
   "license": "MIT",
   "config": {
@@ -34,7 +34,7 @@
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "sms77-client": "^1.8.4",
+    "@seven.io/api": "npm:sms77-client@^1.8.4",
     "@babel/core": "^7.9.0",
     "@babel/polyfill": "^7.8.7",
     "@babel/preset-env": "^7.9.0",

@@ -13,7 +13,7 @@ export function fetchApi({Messagable, endpoint, payload = {}, method = 'post'}: 
 
         xhr.addEventListener('load', () => resolve(JSON.parse(xhr.responseText)));
 
-        xhr.open(method, 'https://gateway.sms77.io/api/' + endpoint);
+        xhr.open(method, 'https://gateway.seven.io/api/' + endpoint);
 
         const fallback = (o: { [k: string]: any }, k: string): string => o[k] || '';
         const isEmpty = (o: { [k: string]: any }, k: string): boolean => 0 === fallback(o, k).length;

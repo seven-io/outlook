@@ -20,7 +20,7 @@ export default function Welcome() {
         ]}/>
 
         <p className='ms-font-l'>
-            Type in your sms77io API key, then click <b>OK</b>.
+            Type in your seven API key, then click <b>OK</b>.
         </p>
     </section>;
 }

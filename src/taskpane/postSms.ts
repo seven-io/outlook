@@ -1,4 +1,4 @@
-import {SmsJsonResponse, SmsParams} from 'sms77-client';
+import {SmsJsonResponse, SmsParams} from '@seven.io/api';
 
 import {fetchApi} from './fetchApi';
 import {LocalStore} from './LocalStore';

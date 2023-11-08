@@ -35,7 +35,7 @@ export default function ApiKey({Messagable, onInit}: ApiKeyProps) {
             componentRef={$apiKey}
             onChange={(e, newValue) => setApiKey(newValue || '')}
             value={apiKey}
-            description='Get yours at https://www.sms77.io'
+            description='Get yours at https://www.seven.io'
             label='API Key'
             required
         />
